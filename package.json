@@ -7,6 +7,9 @@
   },
   "author": "William Hilton <wmhilton@gmail.com>",
   "license": "MIT",
+  "bin": {
+    "my_modules": "bin/cli.js"
+  },
   "dependencies": {
     "rimraf": "^2.5.2"
   }

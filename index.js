@@ -10,7 +10,7 @@ function lsDirs (srcpath) {
   })
 }
 
-function installDirs (my_modules) {
+function install (my_modules) {
   var dirs = lsDirs(my_modules)
   var dir = dirs[0]
   for (var i = 0; i < dirs.length; i++) {
@@ -31,4 +31,6 @@ function installDirs (my_modules) {
   }
 }
 
-installDirs('my_modules')
+module.exports = {
+  install: install
+}
