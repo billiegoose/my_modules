@@ -1,6 +1,6 @@
 {
   "name": "my_modules",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Keeps local modules out of node_modules, but still have working 'npm install' and 'require()'.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
