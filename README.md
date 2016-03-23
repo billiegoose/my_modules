@@ -97,3 +97,7 @@ end
 ## Status
 
 Under development! Contributions welcome.
+
+## Changelog
+
+2.0.0 - Bumped major version because my_modules will now force npm to install packages locally inside each package (my_modules/*/node_modules) instead of letting npm3 do its flattened top-level install. This was necessary to allow running multiple "npm install"s in parallel without race conditions. Switching to parallel execution cut the install time for my project from 22m to 8m so it was definitely worth it.
