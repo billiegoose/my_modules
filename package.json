@@ -1,6 +1,6 @@
 {
   "name": "my_modules",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Keeps local modules out of node_modules, but still have working 'npm install' and 'require()'.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,5 +13,14 @@
   "dependencies": {
     "shelljs": "^0.6.0",
     "tmp": "0.0.28"
-  }
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wmhilton/my_modules.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wmhilton/my_modules/issues"
+  },
+  "homepage": "https://github.com/wmhilton/my_modules#readme"
 }
